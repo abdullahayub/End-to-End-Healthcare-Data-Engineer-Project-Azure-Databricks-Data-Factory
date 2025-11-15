@@ -1,19 +1,15 @@
 # End-to-End-Healthcare-Data-Engineer-Project-Azure-Databricks-Data-Factory
 
-## Adventure Works
 
-Worked on End-to-End Azure Data Engineering project from scratch where I leverage powerful technologies like Azure Data Factory, Azure Data Lake, Databricks, Azure Synapse Analytics, and Apache Spark, along with managed identities, API connections, and many more.
+
+
+#### 1.	Business Background
+Midwest Health Alliance (MHA) is a network of 7 hospitals across the Midwest region. We face daily challenges in patient flow management, especially during high-demand periods such as seasonal flu outbreaks.
+We lack a centralized, real-time data system to monitor bed occupancy, patient admission/discharge patterns, and department load.
 
 **What I have learnt:**
 
 •	How to design and implement a robust data pipeline using Azure Data Factory.
-
-
-1.	Business Background
-Midwest Health Alliance (MHA) is a network of 7 hospitals across the Midwest region. We face daily challenges in patient flow management, especially during high-demand periods such as seasonal flu outbreaks.
-We lack a centralized, real-time data system to monitor bed occupancy, patient admission/discharge patterns, and department load.
-
-
 2.	Business Objectives
 
 •	Monitoring patient admissions to minimize waiting times.
