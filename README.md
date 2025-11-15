@@ -19,26 +19,12 @@ We lack a centralized, real-time data system to monitor bed occupancy, patient a
    1. Real-time patient admission/discharge data from hospital registration systems.
    2. Daily batch extracts from Electronic Health Records (EHR) systems.
    3. Department metadata (capacity, staff numbers).
-2. Data Sources
-   1. Sub number
-   2. hahahhaa
-   3. huuuuaa
-   - 
-   b. Helle
-   c.  Hahahha
-
-a.	Real-time patient admission/discharge data from hospital registration systems.
-
-b.	Daily batch extracts from Electronic Health Records (EHR) systems.
-
-c.	Department metadata (capacity, staff numbers).
-
-##### 2.	Data Processing & Storage.
-a.	Store data in a Medallion architecture (Bronze → Silver → Gold) .
-b.	Handle schema evolution (if the schema of the dataset updates it shouldn’t breaks the data pipeline, the pipeline will adopt the new schema) when new patient attributes are introduced.
- 
-c.	Implement Slowly Changing Dimension Type 2 (SCD2) for example (the patient age changes so we are going to update the patient age, we will keep patient old data with patient age and change the status as inactive for the old one and active for the new one) for patient and department history.
-d.	Implement Star schema for storing the tables.
+2. Data Processing & Storage.
+   1. Store data in a Medallion architecture (Bronze → Silver → Gold).
+   2. Handle schema evolution (if the schema of the dataset updates it shouldn’t breaks the data pipeline, the pipeline will adopt the new schema) when new patient attributes are introduced.
+   3. Implement Slowly Changing Dimension Type 2 (SCD2) for example (the patient age changes so we are going to update the patient age, we will keep patient old data with patient age and change the status as inactive for the old one and active for the new one) for patient and department history.
+   4. Implement Star schema for storing the tables.
+   
 3.	Analytics
 a.	Use Azure Synapse for analytics queries.
 b.	Build dashboards in Power BI with KPIs such as:
