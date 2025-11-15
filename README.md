@@ -15,7 +15,7 @@ We lack a centralized, real-time data system to monitor bed occupancy, patient a
 
 #### 3.	Functional Requirements
 
-1. Data Sources
+**1. Data Sources**
    1. Sub number
    2. hahahhaa
    3. huuuuaa 
