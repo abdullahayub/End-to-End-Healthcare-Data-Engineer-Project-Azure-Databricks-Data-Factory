@@ -15,10 +15,14 @@ We lack a centralized, real-time data system to monitor bed occupancy, patient a
 
 #### 3.	Functional Requirements
 
-**1. Data Sources**
+1. Data Sources
+   1. Real-time patient admission/discharge data from hospital registration systems.
+   2. Daily batch extracts from Electronic Health Records (EHR) systems.
+   3. Department metadata (capacity, staff numbers).
+2. Data Sources
    1. Sub number
    2. hahahhaa
-   3. huuuuaa 
+   3. huuuuaa
    - 
    b. Helle
    c.  Hahahha
