@@ -23,25 +23,23 @@ We lack a centralized, real-time data system to monitor bed occupancy, patient a
    1. Store data in a Medallion architecture (Bronze → Silver → Gold).
    2. Handle schema evolution (if the schema of the dataset updates it shouldn’t breaks the data pipeline, the pipeline will adopt the new schema) when new patient attributes are introduced.
    3. Implement Slowly Changing Dimension Type 2 (SCD2) for example (the patient age changes so we are going to update the patient age, we will keep patient old data with patient age and change the status as inactive for the old one and active for the new one) for patient and department history.
-   4. Implement Star schema for storing the tables.
-   
-3.	Analytics
-a.	Use Azure Synapse for analytics queries.
-b.	Build dashboards in Power BI with KPIs such as:
-i.	Current occupancy % by department
-ii.	Gender-based occupancy distribution
-iii.	Average length of stay per patient
-4.	Orchestration & Automation
-a.	Use Azure Data Factory to automate:
-i.	Daily batch ingestion from EHR
-ii.	Real-time processing triggers
-iii.	Gold-layer refresh for dashboards
-5.	Data Quality
-a.	Simulate realistic dirty data issues (e.g., missing admission times, duplicate patient IDs, wrong timestamps) and handle them in Silver layer processing.
+3. Analytics
+   1. Use Azure Synapse for analytics queries.
+   2. Build dashboards in Power BI with KPIs such as:
+         1. Current occupancy % by department
+         2. Gender-based occupancy distribution
+         3. Average length of stay per patient
+4. Orchestration & Automation
+   1. Use Azure Data Factory to automate:
+         1. Daily batch ingestion from EHR
+         2. Real-time processing triggers
+         3. Gold-layer refresh for dashboards
+5. Data Quality
+   1. Simulate realistic dirty data issues (e.g., missing admission times, duplicate patient IDs, wrong timestamps) and handle them in Silver layer processing.
 6.	Security & Compliance
-a.	Role-based access control for different hospital departments.
+   1. Role-based access control for different hospital departments. 
 
-4.	Deliverables
+#### 4.	Deliverables
 
 •	Fully functional Azure-based data pipeline.
 •	Power BI dashboard connected to live Synapse queries.
