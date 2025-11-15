@@ -49,9 +49,3 @@ We lack a centralized, real-time data system to monitor bed occupancy, patient a
 
 •	Full project documentation (architecture, data models, Git repo).
 
-
-5.	Success Criteria
-
-•	Dashboards refresh often for real-time views.
-•	All pipelines fully automated via ADF.
-•	Schema changes do not cause downtime.
