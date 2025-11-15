@@ -1,25 +1,16 @@
 # End-to-End-Healthcare-Data-Engineer-Project-Azure-Databricks-Data-Factory
 
-
-
-
 #### 1.	Business Background
 Midwest Health Alliance (MHA) is a network of 7 hospitals across the Midwest region. We face daily challenges in patient flow management, especially during high-demand periods such as seasonal flu outbreaks.
 We lack a centralized, real-time data system to monitor bed occupancy, patient admission/discharge patterns, and department load.
 
-**What I have learnt:**
-
-•	How to design and implement a robust data pipeline using Azure Data Factory.
-2.	Business Objectives
-
+#### 2.	Business Objectives
 •	Monitoring patient admissions to minimize waiting times.
 •	Identify department-level bottlenecks (e.g., Emergency, Surgery, ICU).
 •	Enable gender-based and age-based KPIs for demographic insights.
 •	Automate Alerts in case of failures. (incase Data Pipelines fails we need to alert the person who manages the Data Pipelines so we can fix it and make it work again)
 
-
-
-3.	Functional Requirements
+#### 3.	Functional Requirements
 
 1.	Data Sources
 a.	Real-time patient admission/discharge data from hospital registration systems.
