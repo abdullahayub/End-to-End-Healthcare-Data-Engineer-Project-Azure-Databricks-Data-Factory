@@ -6,8 +6,11 @@ We lack a centralized, real-time data system to monitor bed occupancy, patient a
 
 #### 2.	Business Objectives
 •	Monitoring patient admissions to minimize waiting times.
+
 •	Identify department-level bottlenecks (e.g., Emergency, Surgery, ICU).
+
 •	Enable gender-based and age-based KPIs for demographic insights.
+
 •	Automate Alerts in case of failures. (incase Data Pipelines fails we need to alert the person who manages the Data Pipelines so we can fix it and make it work again)
 
 #### 3.	Functional Requirements
