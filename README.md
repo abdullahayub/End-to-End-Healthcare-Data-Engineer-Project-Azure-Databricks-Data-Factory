@@ -12,11 +12,12 @@ We lack a centralized, real-time data system to monitor bed occupancy, patient a
 
 #### 3.	Functional Requirements
 
-1.	Data Sources
+##### 1.	Data Sources
+
 a.	Real-time patient admission/discharge data from hospital registration systems.
 b.	Daily batch extracts from Electronic Health Records (EHR) systems.
 c.	Department metadata (capacity, staff numbers).
-2.	Data Processing & Storage.
+##### 2.	Data Processing & Storage.
 a.	Store data in a Medallion architecture (Bronze → Silver → Gold) .
 b.	Handle schema evolution (if the schema of the dataset updates it shouldn’t breaks the data pipeline, the pipeline will adopt the new schema) when new patient attributes are introduced.
  
