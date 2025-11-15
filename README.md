@@ -37,13 +37,16 @@ We lack a centralized, real-time data system to monitor bed occupancy, patient a
 5. Data Quality
    1. Simulate realistic dirty data issues (e.g., missing admission times, duplicate patient IDs, wrong timestamps) and handle them in Silver layer processing.
 6.	Security & Compliance
-   1. Role-based access control for different hospital departments. 
+      1. Role-based access control for different hospital departments. 
 
 #### 4.	Deliverables
 
 •	Fully functional Azure-based data pipeline.
+
 •	Power BI dashboard connected to live Synapse queries.
+
 •	Data quality & validation reports.
+
 •	Full project documentation (architecture, data models, Git repo).
 
 
