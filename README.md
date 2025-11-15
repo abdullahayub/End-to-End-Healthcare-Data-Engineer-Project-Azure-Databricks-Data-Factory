@@ -17,6 +17,14 @@ We lack a centralized, real-time data system to monitor bed occupancy, patient a
 
 #### 1.	Data Sources
 
+- Item 1
+- Item 2
+  - Sub item
+
+1. First
+2. Second
+   1. Sub number
+
 a.	Real-time patient admission/discharge data from hospital registration systems.
 
 b.	Daily batch extracts from Electronic Health Records (EHR) systems.
